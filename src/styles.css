@@ -1,0 +1,61 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+body{
+font-family: sans-serif;
+margin: 0 auto;
+padding: 25px;
+min-width: 400px;
+max-width: 400px;
+background-color:rgb(78, 87, 84);
+text-align: center;
+
+}
+
+.heading{
+text-align: center;
+margin: 20px 0 30px;
+font-size: 2em;
+color: rgb(51, 102, 146);
+}
+
+.card{
+border-radius: 25px;
+position: relative;
+padding: 25px 15px;
+margin:50px 0;
+height: 200px;
+text-align: left;
+box-shadow: 0 2px 5px burlywood;
+background-color: wheat;
+}
+
+.name{
+font-size: 2em;
+color: black;
+display: flex;
+flex: 1px;
+margin: 10px 20px 0;
+}
+
+.top{
+border-radius: 25px 25px 0 0;
+height: 100px;
+width:100px;
+background-color: rgb(124, 117, 48);
+top: 0;
+left: 0;
+position: absolute;
+display: flex;
+}
+
+.bottom{
+  margin-top: 120px;
+}
+
+.info{
+ margin: 20px,0;
+ color: rgb(143, 74, 116);
+}
